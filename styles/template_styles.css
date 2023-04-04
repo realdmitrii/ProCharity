@@ -1,0 +1,117 @@
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header {
+  background: #7dcdd7;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.5s;
+    transform: translate3d(0, 0, 0);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid transparent;
+    outline-offset: -1px;
+    padding: 16px 0;
+    color: #fff;
+}
+
+.header:hover {
+  background: #fff;
+  color: #374146;
+}
+
+.header__logo {
+  display: flex;
+  width: 104px;
+  height: 104px;
+  background-image: url(/images/procharity.svg) 
+}
+
+.header:hover .header__logo {
+  background-image: url(/images/procharity-hover.svg)
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 32px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header__list {
+  display: flex;
+  color: inherit;
+  text-decoration: none;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1120px;
+  padding: 0 16px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+
+.header__login {
+  display: flex;
+  align-items: flex-end;
+  width: 218px;
+  height: 48px;
+}
+
+.header__login-l {
+  width: 168px;
+    height: 48px;
+    background: #E65609;
+    border-radius: 24px 0 0 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2px;
+    color: white;
+}
+
+.header__login-r {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    -webkit-border-radius: 0 24px 24px 0;
+    border-radius: 0 24px 24px 0;
+    background: rgba(55, 65, 70, 0.16);
+}
+
+.header__search {
+  width: 24px;
+  height: 24px;
+  background-image: url(/images/ico-search.svg);
+  background-size: contain;
+}
