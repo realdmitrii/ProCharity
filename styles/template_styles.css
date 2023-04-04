@@ -39,11 +39,11 @@ li {
   display: flex;
   width: 104px;
   height: 104px;
-  background-image: url(/images/procharity.svg) 
+  background-image: url(../images/procharity.svg) 
 }
 
 .header:hover .header__logo {
-  background-image: url(/images/procharity-hover.svg)
+  background-image: url(../images/procharity-hover.svg)
 }
 
 .header__menu {
@@ -112,6 +112,6 @@ li {
 .header__search {
   width: 24px;
   height: 24px;
-  background-image: url(/images/ico-search.svg);
+  background-image: url(../images/ico-search.svg);
   background-size: contain;
 }
