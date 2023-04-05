@@ -1,0 +1,144 @@
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__title {
+  padding: 64px;
+  position: relative;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #374045;
+  width: 100%;
+}
+
+.choose__reg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.bottom__entrance {
+  padding-top: 64px;
+  padding-bottom: 120px;
+  text-align: center;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #58646A;
+}
+
+.choose__l {
+  width: 50%;
+  margin-right: 16px;
+  background: #374146;
+  color: #fff;
+  justify-content: right;
+  padding-right: 96px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: block;
+  text-decoration: none;
+  z-index: 2;
+  transition: all 0.5s;
+}
+
+.choose__r {
+  width: 50%;
+  margin-left: 16px;
+  background: #374146;
+  color: #fff;
+  text-align: left;
+  padding-left: 96px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: block;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.choose__r:hover, .choose__l:hover {
+    background: #EA5A0A;
+  }
+
+.choose__head {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  padding-bottom: 28px;
+  }
+
+.choose__desc {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+
+.rupor {
+  position: absolute;
+  width: 336px;
+  height: 480px;
+  left: 0px;
+  top: 250px;
+  background: url(../images/VolBg.png) center center no-repeat;
+  background-size: contain;
+}
+
+.choose__l:hover .rupor {
+  background: url(../images/VolBggray.png) center center no-repeat;
+}
+
+.choose__menu {
+  max-width: 400px;
+  text-align: right;
+  float: right;
+}
+
+.choose__menu_r {
+  max-width: 400px;
+  text-align: left;
+  float: left;
+}
+
+.skrug {
+  position: absolute;
+  width: 336px;
+  height: 480px;
+  right: -16px;
+  top: 250px;
+  background: url(../images/NKObg.png) center center no-repeat;
+  background-size: contain;
+}
+
+.choose__link {
+  color: #7DCDD7;
+}
+
+.choose__create {
+  text-decoration: none;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.choose__link__bottom {
+  color: #048AA7;
+}

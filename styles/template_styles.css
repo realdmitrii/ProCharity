@@ -2,10 +2,12 @@ html {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
+  margin: 0px;
 }
 
 * {
   box-sizing: inherit;
+  margin: 0px;
 }
 
 li {
@@ -13,12 +15,11 @@ li {
 }
 
 .header {
-  background: #7dcdd7;
-    position: fixed;
+    background: #7dcdd7;
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 10;
     transition: all 0.5s;
     transform: translate3d(0, 0, 0);
     -webkit-box-sizing: border-box;
@@ -28,6 +29,8 @@ li {
     outline-offset: -1px;
     padding: 16px 0;
     color: #fff;
+    position: relative;
+    margin: 0px;
 }
 
 .header:hover {
@@ -114,4 +117,13 @@ li {
   height: 24px;
   background-image: url(../images/ico-search.svg);
   background-size: contain;
+}
+
+.footer {
+  background: #374146;
+  padding: 64px 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
